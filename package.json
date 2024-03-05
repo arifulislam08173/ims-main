@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "imsfrontend",
   "version": "0.1.0",
   "private": true,
@@ -46,5 +47,26 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "imsbackend",
+  "version": "1.0.0",
+  "description": "Inventory management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "TasnimHoque",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+>>>>>>> a09580c0d0eb4c27a93b82d542239fed8bfcb47a
   }
 }
