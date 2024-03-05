@@ -1,0 +1,135 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+  width: 600px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 0 10px;
+  background: white;
+  backdrop-filter: blur(30px);
+  padding-bottom: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text {
+  color: #3c009d;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.underline {
+  width: 65px;
+  height: 6px;
+  background: #3c009d;
+  border-radius: 9px;
+}
+
+.uderline-login{
+  width: 65px;
+  height: 6px;
+  background: #3c009d;
+  border-radius: 9px;
+}
+
+.inputs {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background: rgb(170, 168, 164);
+  border-radius: 6px;
+}
+
+.input span {
+  margin: 0px 30px;
+}
+
+.input input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: rgb(12, 12, 12);
+  font-size: 19px;
+}
+
+.forgotPassword {
+  padding-left: 10px;
+  margin-top: 27px;
+  color: gray;
+  font-size: 18px;
+}
+
+.forgotPassword span {
+  color: #4c00b4;
+  cursor: pointer;
+}
+
+.submit {
+  margin: 0 auto; /* Center align the button */
+  width: 200px; /* Reduce button width */
+  height: 70px; /* Reduce button height */
+  line-height: 50px; /* Center align button text vertically */
+  color: white;
+  background: #4c00b4;
+  border-radius: 25px; /* Make button round */
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.submit:hover {
+  background: #3c009d; /* Change button color on hover */
+}
+
+.createAccount {
+  margin-top: 20px; /* Add space between button and create account text */
+}
+
+.createAccount span {
+  color: #4c00b4;
+  cursor: pointer;
+}
+
+.gray {
+  background: rgb(98, 96, 96);
+  color: black;
+}
+
+.signup-submit{
+  margin: 10px;
+
+  width: 200px; /* Reduce button width */
+  height: 70px; /* Reduce button height */
+  line-height: 50px; /* Center align button text vertically */
+  color: white;
+  background: #4c00b4;
+  border-radius: 25px; /* Make button round */
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
